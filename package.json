@@ -1,0 +1,19 @@
+{
+  "name": "floridaman-headlines",
+  "version": "1.0.0",
+  "description": "Get Florida Man headlines for no reason! Uses https://floridaman.com/ to fetch data.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "pino": "^7.9.2",
+    "pino-pretty": "^7.6.0",
+    "ts-node": "^10.7.0"
+  }
+}
